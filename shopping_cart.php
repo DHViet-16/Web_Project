@@ -84,7 +84,7 @@ if (isPost()) {
 
                         </td>
                         <td>
-                            <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart-remove.php?id=<?php echo $item['id'] ?>"><i class="fas fa-trash"></i>
+                            <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart-remove.php?id=<?php echo $item['id'] ?> " class="remove"><i class="fas fa-trash"></i>
                                 Xóa</a>
                         </td>
                     </tr>
@@ -96,7 +96,7 @@ if (isPost()) {
     </table>
     <div class="table_bottom">
         <a style="cursor: pointer; ">Thanh toán đơn hàng</a>
-        <a>Tổng giá trị:
+        <a >Tổng giá trị:
             <?php
             $tongtien = 0;
             if (!empty($listCart)) :

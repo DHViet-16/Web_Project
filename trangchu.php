@@ -208,7 +208,7 @@ if (isPost()) {
                                             <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                             <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                         </div>
-                                        <form action="" target="page" method="post">
+                                        <form action=""  method="post">
                                             <input type="hidden" name="product_id" value="<?php echo $item['id'] ?>">
                                             <button type="submit"><img src="images/hot-prod/cart-icon.png"></button>
                                         </form>
@@ -271,7 +271,7 @@ if (isPost()) {
                                                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                             </div>
-                                            <form action="" target="page" method="post">
+                                            <form action=""  method="post">
                                                 <input type="hidden" name="product_id" value="<?php echo $item['id'] ?>">
                                                 <button type="submit"><img src="images/hot-prod/cart-icon.png"></button>
                                             </form>

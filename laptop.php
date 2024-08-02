@@ -29,7 +29,7 @@ $smg_type = getFLashData('smg_type');
     <div class="laptop-container" >
         <ul class="nav-list">
             <li><a href="<?php echo _WEB_HOST_1 ?>/index.php"><i class="fa-solid fa-house" style="color: red;"></i>Trang chủ</a></li>
-            <li><a href="<?php echo _WEB_HOST_1 ?>/laptop.php" target="page"><i class="fa-solid fa-greater-than" style="font-size: 12px;"></i>Laptop</a>
+            <li><a href="<?php echo _WEB_HOST_1 ?>/laptop.php" ><i class="fa-solid fa-greater-than" style="font-size: 12px;"></i>Laptop</a>
             </li>
         </ul>
         <div class="clear"></div>
@@ -41,7 +41,7 @@ $smg_type = getFLashData('smg_type');
                     foreach ($listBrand as $item) :
                         if ($item['cartegory_Id'] == '2') :
                 ?>
-                            <a href="<?php echo _WEB_HOST_1 ?>/acer.php?brand_id=<?php echo $item['id'] ?>" target="page" class="list-brand_item"><span><?php echo $item['name'] ?></span> </a>
+                            <a href="<?php echo _WEB_HOST_1 ?>/acer.php?brand_id=<?php echo $item['id'] ?>"  class="list-brand_item"><span><?php echo $item['name'] ?></span> </a>
 
                 <?php
                         endif;

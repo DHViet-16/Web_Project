@@ -1,8 +1,8 @@
-.main_container a {
+.remove {
     text-decoration: none;
     color: red;
 }
-.main_container a:hover {
+.remove a:hover {
     text-decoration: none;
 }
 h1 {

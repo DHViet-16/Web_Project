@@ -158,6 +158,9 @@
     font-weight: bold;
     padding-left: 5px;
 }
+.banner2 a:hover {
+    text-decoration: none;
+}
 
 .banner-second .banner2 img {
     position: absolute;

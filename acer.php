@@ -28,6 +28,7 @@ $smg_type = getFLashData('smg_type');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="css/mobile.css ? ver= <?php echo rand() ?>">
     <link rel="stylesheet" href="css/hot-prod.css? ver= <?php echo rand() ?>">
+    <link rel="stylesheet" href="css/base.css? ver= <?php echo rand() ?>">
     <!-- <style>
         .mobile-container {
     width: 100%;
@@ -40,10 +41,11 @@ $smg_type = getFLashData('smg_type');
 </head>
 
 <body>
-    <div class="mobile-container">
+<div class="main_container">
+<div class="mobile-container">
         <ul class="nav-list">
             <li><a href="<?php echo _WEB_HOST_1 ?>/index.php"><i class="fa-solid fa-house" style="color: red;"></i>Trang chủ</a></li>
-            <li><a href="<?php echo _WEB_HOST_1 ?>/laptop.php" target="page"><i class="fa-solid fa-greater-than" style="font-size: 12px;"></i>Laptop</a>
+            <li><a href="<?php echo _WEB_HOST_1 ?>/laptop.php" ><i class="fa-solid fa-greater-than" style="font-size: 12px;"></i>Laptop</a>
             </li>
             <li><a href=""><i class="fa-solid fa-greater-than" style="font-size: 12px;"></i>
                     <?php
@@ -163,6 +165,7 @@ $smg_type = getFLashData('smg_type');
         </div>
     </div>
 
+</div>
 
 </body>
 

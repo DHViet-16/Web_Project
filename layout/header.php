@@ -42,7 +42,7 @@ $listBrand = getRaw("SELECT * FROM brand");
         <!-- Header -->
         <header class="header">
             <div class="logo">
-                <a href="trangchu.php" target="page"><img src="" alt="Logo"></a>
+                <a href="index.php" ><img src="" alt="Logo"></a>
             </div>
 
             <form class="header-search">
@@ -58,7 +58,7 @@ $listBrand = getRaw("SELECT * FROM brand");
             <nav class="navbar">
                 <div class="navbar-list">
                     <div class="mobile">
-                        <a href="<?php echo _WEB_HOST_1 ?>/mobile.php" target="page">
+                        <a href="<?php echo _WEB_HOST_1 ?>/mobile.php" >
                             <img class="navbar-item-icon-img" src="<?php echo BASE_URL; ?>images/header-icon/mobile-icon.jpg">
                             <span>Điện Thoại</span>
 
@@ -109,7 +109,7 @@ $listBrand = getRaw("SELECT * FROM brand");
                     </div>
 
                     <div class="iphone">
-                        <a href="<?php echo _WEB_HOST_1 ?>/apple.php?brand_id=1" target="page" class="ip-icon">
+                        <a href="<?php echo _WEB_HOST_1 ?>/apple.php?brand_id=1"  class="ip-icon">
                             <img class="iphone-icon-img" src="<?php echo BASE_URL; ?>images/header-icon/apple-icon.png"><span>Iphone</span>
                         </a>
                         <div class="all-iphone">
@@ -149,7 +149,7 @@ $listBrand = getRaw("SELECT * FROM brand");
                     </div>
 
                     <div class="samsung">
-                        <a href="<?php echo _WEB_HOST_1 ?>/apple.php?brand_id=2" target="page" class="ss-icon">
+                        <a href="<?php echo _WEB_HOST_1 ?>/apple.php?brand_id=2" class="ss-icon">
                             <img class="samsung-icon-img" src="<?php echo BASE_URL; ?>images/header-icon/samsung-icon.png" style="width: 70px;">
                             <span>SamSung</span>
                         </a>
@@ -190,7 +190,7 @@ $listBrand = getRaw("SELECT * FROM brand");
                     </div>
 
                     <div class="laptop">
-                        <a href="<?php echo _WEB_HOST_1 ?>/laptop.php" target="page" class="laptop-icon">
+                        <a href="<?php echo _WEB_HOST_1 ?>/laptop.php" class="laptop-icon">
                             <img class="laptop-icon-img" src="<?php echo BASE_URL; ?>images/header-icon/laptop-icon.jpg">
                             <span>Laptop</span>
                         </a>
@@ -239,7 +239,7 @@ $listBrand = getRaw("SELECT * FROM brand");
                         </div>
                     </div>
                     <div class="asus">
-                        <a href="<?php echo _WEB_HOST_1 ?>/acer.php?brand_id=13" target="page" class="asus-icon">
+                        <a href="<?php echo _WEB_HOST_1 ?>/acer.php?brand_id=13"  class="asus-icon">
                             <img class="macbook-icon-img" src="<?php echo BASE_URL; ?>images/header-icon/asus-icon.png" style="width: 35px">
                             <span>Asus</span>
                         </a>
@@ -339,7 +339,7 @@ $listBrand = getRaw("SELECT * FROM brand");
             endif;
             ?>
             <div class="header-cart">
-                <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart.php" target="page"> <img class="header-cart-img" 
+                <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart.php" > <img class="header-cart-img" 
                 src="<?php echo BASE_URL; ?>images/header-icon/cart-icon.png" style="width: 25px; height: 30px;;">
                     <span class="cart-quantity-item" id="count">
                         <?php echo $count ?>
