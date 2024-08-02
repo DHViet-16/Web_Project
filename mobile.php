@@ -29,6 +29,7 @@ $smg_type = getFLashData('smg_type');
 </head>
 
 <body>
+    <div class="main_container">
     <div class="mobile-container">
         <ul class="nav-list">
             <li><a href="<?php echo _WEB_HOST_1 ?>/index.php"><i class="fa-solid fa-house" style="color: red;"></i>Trang chủ</a></li>
@@ -174,9 +175,11 @@ $smg_type = getFLashData('smg_type');
         </div>
     </div>
 
+    </div>
 
 </body>
 
 </html>
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/aside.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/footer.php');

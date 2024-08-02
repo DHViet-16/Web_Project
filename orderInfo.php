@@ -168,4 +168,5 @@ Nhận hàng tại cửa hàng
 
 </html>
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/asside.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/footer.php');

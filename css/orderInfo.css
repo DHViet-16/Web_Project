@@ -9,7 +9,8 @@
 }
 
 .cart-info {
-  width: 60%;
+  width: 55%;
+  box-sizing: border-box;
 }
 
 .cart-form {

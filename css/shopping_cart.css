@@ -1,12 +1,14 @@
-body {
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 20px 0 10px 0;
+.main_container a {
+    text-decoration: none;
+    color: red;
 }
-
+.main_container a:hover {
+    text-decoration: none;
+}
 h1 {
     text-align: center;
-    color: #333;
+    color: red;
+    padding-top: 10px;
 }
 
 table {
@@ -33,7 +35,10 @@ td {
     background-color: white;
     color: #333;
 }
-
+td input {
+    width: 30px;
+    text-align: center;
+}
 td:nth-child(3) img {
     width: 100px;
     height: auto;
@@ -46,10 +51,16 @@ td:nth-child(6),
 td:nth-child(7) {
     text-align: center;
 }
-
-a {
+.table_bottom {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.table_bottom a {
     color: #007BFF;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 
 a:hover {
@@ -94,3 +105,5 @@ a:hover {
 .delete_all a:hover {
     background-color: #1d5b74;
 }
+
+

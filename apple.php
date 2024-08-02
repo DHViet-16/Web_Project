@@ -172,4 +172,5 @@ $smg_type = getFLashData('smg_type');
 
 </html>
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/aside.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/footer.php');

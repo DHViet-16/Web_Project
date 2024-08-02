@@ -33,8 +33,15 @@ if (isPost()) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="css/shopping_cart.css">
-    <h1> GIỎ HÀNG CỦA TÔI</h1>
+    <link rel="stylesheet" href="css/shopping_cart.css? ver= <?php echo rand() ?>">
+<!-- <style>
+    .main_container {
+        margin: 0px;
+    }
+</style> -->
+<body>
+    <div class="main_container">
+    <h1> Giỏ Hàng</h1>
     <table>
         <thead>
             <th>STT</th>
@@ -78,7 +85,7 @@ if (isPost()) {
                         </td>
                         <td>
                             <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart-remove.php?id=<?php echo $item['id'] ?>"><i class="fas fa-trash"></i>
-                                REMOVE</a>
+                                Xóa</a>
                         </td>
                     </tr>
             <?php
@@ -88,8 +95,8 @@ if (isPost()) {
         </tbody>
     </table>
     <div class="table_bottom">
-        <a>Thanh toán đơn hàng</a>
-        <a>Tổng tiền:
+        <a style="cursor: pointer; ">Thanh toán đơn hàng</a>
+        <a>Tổng giá trị:
             <?php
             $tongtien = 0;
             if (!empty($listCart)) :
@@ -103,11 +110,13 @@ if (isPost()) {
             ?>
         </a>
         <a href="<?php echo _WEB_HOST_1 ?>/shopping_cart-delete.php">
-            <i class="fas fa-trash"></i>Delete All
+            <i class="fas fa-trash" style="color: red"></i> Xóa hết
         </a>
+    </div>
     </div>
     </body>
 
 </html>
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/aside.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/Web_Project/layout/footer.php');
